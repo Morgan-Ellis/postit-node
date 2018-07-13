@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+mat-paginator {
+  margin-top: 1rem;
+}
+
+.post-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.post-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post-image img {
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
